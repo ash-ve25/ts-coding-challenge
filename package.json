@@ -13,14 +13,14 @@
     "test:wip": "cucumber-js -p default --tags 'not @wip' --exit"
   },
   "devDependencies": {
-    "@cucumber/cucumber": "12.2.0",
-    "@hashgraph/sdk": "2.77.0",
+    "@cucumber/cucumber": "12.3.0",
+    "@hashgraph/sdk": "2.78.0",
     "@types/node": "24.10.1",
     "cucumber-pretty": "6.0.1",
     "cucumber-tsflow": "4.6.1",
     "mocha": "11.7.5",
     "nodemon": "3.1.11",
-    "rimraf": "6.1.0",
+    "rimraf": "6.1.2",
     "ts-node": "10.9.2",
     "typescript": "5.9.3"
   },
