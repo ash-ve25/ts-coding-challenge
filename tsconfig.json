@@ -67,6 +67,7 @@
   },
   "exclude": ["node_modules"],
   "include": [
-    "features/**/*.ts"
+    "features/**/*.ts",
+    "src/**/*.ts"
   ]
 }
