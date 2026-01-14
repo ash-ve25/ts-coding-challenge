@@ -1,16 +1,5 @@
 # The Hashgraph Group (THG) Coding Task
 
-## Folder Structure
-
-- `features/` — Gherkin feature files (`tokens.feature`, `consensus.feature`) that define expected behaviors.
-- `features/step_definitions/` — TypeScript step implementations (`token-service.ts`, `create-simple-topic.ts`) that drive Hedera SDK calls.
-- `src/config.ts` — List of testnet accounts and keys consumed by the step layers.
-- `src/utils/` — Shared helpers (`client.ts`, `accounts.ts`) for client instantiation, account lookup, and balance checks.
-- `src/create-accounts.ts` — Optional script for provisioning additional actors.
-- `task/` — Challenge brief/materials (read-only during implementation).
-- `cucumber.js` — Centralizes cucumber options used by every npm script.
-- `package.json`, `pnpm-workspace.yaml`, `pnpm-lock.yaml`, `tsconfig.json` — Toolchain metadata.
-
 ## Getting Started
 
 ### Installation Steps
@@ -34,6 +23,17 @@
 
 - **Consensus service** (`features/consensus.feature`): creates topics, optionally with 1-of-2 threshold submit keys, publishes messages, and confirms delivery through live subscriptions.
 - **Token service** (`features/tokens.feature`): walks through mintable and fixed-supply token creation, treasury ownership checks, single-/multi-party transfers, payer-swapped fees, and mint failure paths.
+
+## Folder Structure
+
+- `features/` — Gherkin feature files (`tokens.feature`, `consensus.feature`) that define expected behaviors.
+- `features/step_definitions/` — TypeScript step implementations (`token-service.ts`, `create-simple-topic.ts`) that drive Hedera SDK calls.
+- `src/config.ts` — List of testnet accounts and keys consumed by the step layers.
+- `src/utils/` — Shared helpers (`client.ts`, `accounts.ts`) for client instantiation, account lookup, and balance checks.
+- `src/create-accounts.ts` — Optional script for provisioning additional actors.
+- `task/` — Challenge brief/materials (read-only during implementation).
+- `cucumber.js` — Centralizes cucumber options used by every npm script.
+- `package.json`, `pnpm-workspace.yaml`, `pnpm-lock.yaml`, `tsconfig.json` — Toolchain metadata.
 
 ## Credits
 
