@@ -16,7 +16,6 @@
     "@cucumber/cucumber": "12.5.0",
     "@hashgraph/sdk": "2.79.0",
     "@types/node": "24.10.4",
-    "cucumber-pretty": "6.0.1",
     "cucumber-tsflow": "4.6.1",
     "mocha": "11.7.5",
     "nodemon": "3.1.11",
